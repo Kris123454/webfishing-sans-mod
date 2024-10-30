@@ -1,0 +1,56 @@
+GDRE Tools v0.7.3
+Windows 10.0.22631, NVIDIA GeForce RTX 3060 Laptop GPU, opengl3
+Extracted 185 files, no errors detected!
+WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:96)
+Script version 3.5.2 (rev 0xa7aad78) detected
+Saved project config project.godot.
+WARNING: Export of Godot 2/3.x models/imported scenes currently unimplemented
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:282)
+WARNING: Conversion for Resource of type 3.x PackedScene and format glb not implemented
+   at: ImportExporter::report_unsupported_resource (modules\gdsdecomp\utility\import_exporter.cpp:1294)
+Did not convert 3.x PackedScene resource res://.import/Sans Rig.glb-dcf5a13a03e5b4af784e38ab9246a3da.scn
+Saved project config project.godot.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     15
+Failed scripts:                         0
+Imported resources for export session:  185
+Successfully converted:                 62
+Lossy:                                  0
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          1
+Failed conversions:                     0
+-------------
+
+------
+
+The following files were not converted because support has not been implemented yet:
+res://.import/Sans Rig.glb-dcf5a13a03e5b4af784e38ab9246a3da.scn
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Unsupported Resources Detected:
+The following resource types were detected in the project that conversion is not implemented for yet.
+See Export Report to see which resources were not exported.
+You will still be able to edit the project in the editor regardless.
+ - Resource Type: 3.x PackedScene, Format: glb
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.5.2 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+
